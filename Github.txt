@@ -1,0 +1,15 @@
+Github
+
+1. Download Git bash
+
+2. Set username and email (No need to set again if already done earlier)
+a) git  config --global user.name " "
+   git  config --global user.email " "
+
+3. git init (It will initialse the git repo which is hidden )
+Work -> It tracks the directories (files/folder)
+Note -> Don't write the command if you already initialise
+
+4. rm -rf .git (It will delete the hidden .git repo & now we can't track files/folder in that directory)
+
+5.
