@@ -12,4 +12,10 @@ Note -> Don't write the command if you already initialise
 
 4. rm -rf .git (It will delete the hidden .git repo & now we can't track files/folder in that directory)
 
-5.
+5. ls (list content i.e all the files will be shown that are inside directory)
+
+6. pwd (parent working directory)
+
+7. For moving foward to any directory(dir) use cd directory/
+   For moving backward to any directory(dir) use cd ..
+
