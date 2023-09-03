@@ -31,6 +31,6 @@ Note -> Don't write the command if you already initialise
 11. git remote -> It shows total no. of remote repo's 
 
 12. git push -u origin master
-    When you run "git push -u origin master", you're pushing your local "master" branch to the "master" branch in the remote repository named "origin."           Additionally, you're establishing a tracking relationship(-u called upstream) so that future Git commands like git push or git pull will use "origin" as the 
+    When you run "git push -u origin master", you're pushing your local "master" branch to the "master" branch in the remote repository named "origin." Additionally, you're establishing a tracking relationship(-u called upstream) so that future Git commands like git push or git pull will use "origin" as the 
   default remote repository and "master" as the default branch for your local "master" branch.
 
