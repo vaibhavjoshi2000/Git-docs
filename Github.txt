@@ -7,7 +7,7 @@ a) git  config --global user.name " "
    git  config --global user.email " "
 
 3. git init (It will initialse the git repo which is hidden )
-Work -> It tracks the directories (files/folder)
+Work -> It tracks the directories (files/folder) except if folder is empty.
 Note -> Don't write the command if you already initialise
 
 4. rm -rf .git (It will delete the hidden .git repo & now we can't track files/folder in that directory)
@@ -19,3 +19,13 @@ Note -> Don't write the command if you already initialise
 7. For moving foward to any directory(dir) use cd directory/
    For moving backward to any directory(dir) use cd ..
 
+8. touch filename ex - Error.log (It's useful to generate file in particular directory)
+
+9. touch .gitignore(It will make .gitignore file)
+  It's function to ignore git file that we put inside this file.
+
+10. git remote add origin URL(Repo URL which you have made in remote/server)
+    origin -> Name of URL(you can write something else also)
+   In simple terms this command helps us to establish a connection b/w local and remote server
+
+11. git remote -> It shows total no. of remote repo's 

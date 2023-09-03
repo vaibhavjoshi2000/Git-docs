@@ -1,0 +1,13 @@
+SSH Keys -> SSH keys are a pair of public and private keys that are used to authenticate and establish an encrypted communication channel
+            between a client and a remote machine over the internet.
+
+Step to get SSH key and paste that key in github.
+
+1. Open Git Bash.
+2. Paste ssh-keygen -t ed25519 -C "your_email@example.com" (Your github email)
+3. Click Enter 3 times
+4. Paste clip < ~/.ssh/id_ed25519.pub
+5. Press Enter
+6. If SSH key not shown open notepad and press Ctrl+V. Now Its shows SSH key Paste into 
+7. Go to you github account (https://github.com/settings/ssh/new) and Paste key under Key
+
