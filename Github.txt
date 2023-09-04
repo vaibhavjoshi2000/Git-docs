@@ -46,6 +46,7 @@ Note -> Don't write the command if you already initialise
 
 17. To merge branch , switch to parent branch:
     git merge <branch name to be merge>
+    Note-> After merging branch push changes to remote also.. So that changes will reflect in remote repo
 
 18. For delete branch in local repo
     git branch -d branch_name
