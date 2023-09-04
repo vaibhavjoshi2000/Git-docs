@@ -41,11 +41,14 @@ Note -> Don't write the command if you already initialise
 15. git checkout -b branch name -> It will create new branch & checkout from older branch to this branch
     git checkout branch name -> It will checkout to branch you mentioned
 
-16. To merge branch , switch to parent branch:
-    $ git merge <branch name to be merge>
+16  For renaming branch at remote
+    git push origin branch_name:rename_branch
 
-17. For delete branch in local repo
+17. To merge branch , switch to parent branch:
+    git merge <branch name to be merge>
+
+18. For delete branch in local repo
     git branch -d branch_name
 
-18. For deleting branch in remote repo
+19. For deleting branch in remote repo
     git push -d origin branch_name (Here origin is name of remote repo)
